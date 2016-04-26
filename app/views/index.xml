@@ -1,0 +1,15 @@
+<Alloy>
+    <TabGroup tabsBackgroundFocusedColor="#5DAD42" tintColor="#5DAD42" class="mainWrapper" >
+        <Tab id="tab1" title="" icon="images/dark_2x/dark_list---add@2x.png">
+            <Window id="operations" title="Operations" layout="vertical">
+               <Button id="incomeBtn" onClick="openIncome" title="Income"></Button>
+               <Button id="expenseBtn" onClick="openExpense" title="Expense"></Button>
+               <Button id="exchangeBtn" onClick="openExchange" title="Exchange"></Button>
+               <Button id="transferBtn" onClick="openTransaction" title="Transfer"></Button>
+            </Window>
+        </Tab>
+        <Require src="history" id="history" />
+        <Require src="accounts" id="accounts" />
+        <Require src="settings" id="settings" />
+    </TabGroup> 
+</Alloy>     

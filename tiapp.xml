@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>cur.com.AlloyPocket</id>
+    <name>ФинУчет</name>
+    <version>1.0</version>
+    <publisher>stanislavpribylnov</publisher>
+    <url>http://alloypocket.com</url>
+    <description>undefined</description>
+    <copyright>2016 by stanislavpribylnov</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>1d802b05-8224-4c8f-9000-2074278eb1f0</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <dict>
+                    <key>CFBundleLocalizations</key>
+                    <array>
+                        <string>ru</string>
+                        <string>je</string>
+                    </array>
+                </dict>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>6.0.0.v20160122093848</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">56c73d9656e164751fe0bd71</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">f0RNAjPXj98UiZPfu1GZdyGyJkbOvFyD</property>
+    <property name="acs-oauth-key-development" type="string">3PZ9BUj3mGxrWMWlSy4xEBKbMGzc55Qe</property>
+    <property name="acs-api-key-development" type="string">2dxWa7ydID4xAkYYK8ET0lrbKe2G7znC</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">bK1UswvMfixtgYRkkE</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">s1HvuIjJkrs871P4Hg4vdVRKNdZYW5Mz</property>
+    <property name="acs-oauth-key-production" type="string">QVlkWwt8RmEKG1Vz0U8a7ya3pHujOnFG</property>
+    <property name="acs-api-key-production" type="string">NszKqnEYeQi5DdBNGgQnqlCDXP2p4k2L</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">5NlSy0y57Pz5CygdUz</property>
+    <property name="appc-org-id" type="string">100092962</property>
+    <property name="appc-creator-user-id" type="string">253ad1b1-9945-46f0-8d38-a5b8c0b44f37</property>
+</ti:app>

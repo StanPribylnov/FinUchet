@@ -1,0 +1,11 @@
+<Alloy>
+    <Window class="" layout="vertical">
+    	<Label id="h1">Please accept Your income!</Label>
+    	<Label id="transDate"></Label>
+    	<Label id="transAmount"></Label>
+    	<!--<Label id="transAccount"></Label>-->
+    	<Label id="transComment"></Label> 
+    	<Button onClick="cancelTransaction" id="transDecline">Cancel</Button>
+    	<Button onClick="acceptTransaction" id="transAccept"  title="">Accept</Button>
+    </Window>
+</Alloy>  

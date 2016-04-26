@@ -1,0 +1,9 @@
+<Alloy>
+    <Window class="mainWrapper" layout="vertical">
+        <TextField value="user0" id="userLogin" hintText="Login"></TextField> 
+        <TextField value="12345" id="userPassword" hintText="Password" passwordMask="true"></TextField>
+        <Button id="loginButton" onClick="signIn">Login</Button> 
+        <ActivityIndicator id="activityIndicator" />
+    </Window> 
+</Alloy>
+     

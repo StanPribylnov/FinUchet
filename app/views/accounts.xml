@@ -1,0 +1,6 @@
+<Alloy>
+    <Tab id="tab3" title="" icon="images/dark_2x/dark_coins@2x.png">
+	    <Window id="accountsWin" layout="vertical" title="Accounts">
+	    </Window>
+    </Tab>
+</Alloy>   

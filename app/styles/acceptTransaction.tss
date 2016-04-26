@@ -1,0 +1,27 @@
+
+".accIncView":{
+	width: 300,
+	top: 50
+}
+"#h1": {
+  	font: { fontSize:24 }
+	}
+"Label": {
+	width: 300,
+	height: 40,
+    paddingLeft:20,      // pad left by 20 pixels
+    paddingRight:20,    // pad right by 20 pixels
+	top: 10
+	
+}
+"Button": {
+	width: 300,
+	height: 40, 
+	top: 10,
+	backgroundColor: '#75C799', 
+	color: 'white'
+}
+"#transDecline":{
+	backgroundColor: 'silver', 
+	color: 'white'
+}

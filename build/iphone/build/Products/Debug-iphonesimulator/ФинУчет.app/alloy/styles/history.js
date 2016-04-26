@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0058,"key":"Label","style":{bottom:20,borderWidth:1,}}];

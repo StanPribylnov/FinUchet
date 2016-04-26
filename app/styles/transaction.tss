@@ -1,0 +1,110 @@
+
+".goBack": { 
+	width: "100%",
+	height: 40,
+	top: 20,
+	backgroundColor: '#e3e3e3',
+	//backgroundImage: 'images/dark_2x/dark_in@2x.png',
+	backgroundRepeat: 0,
+	textAlign: 'left'
+}
+
+".form": { 
+	width: '75%',
+	top: 10
+}
+"TextField": { 
+	width: '75%',
+	height: 40, 
+    paddingLeft:20,      // pad left by 20 pixels
+    paddingRight:20,    // pad right by 20 pixels
+	top: 10,
+	borderWidth: 1,
+	borderColor: "silver"
+} 
+"#amount": {
+	width: 150,
+	left: '12.5%'
+}
+"#currencyPicker": {
+	width: 120,
+	top: -40,  
+	right: '12.5%'
+}
+"TextArea": { 
+	width: '75%',
+	height: 60,
+    paddingLeft:20,      // pad left by 20 pixels
+    paddingRight:20,    // pad right by 20 pixels
+	top: 10,
+	borderWidth: 1,
+	borderColor: "silver"
+}
+"Picker": {
+	height: 100 
+}
+".psDateLabel": {
+	width: 100,
+	top: 20, 
+	left: '12.5%'
+}
+"#psPickDate": { 
+	width: 150,
+	top: -30,
+	left: 175
+}
+".psAmountLabel": {
+	width: 150,
+	left: '12.5%'
+}
+".psRaitLabel": {
+	width: '75%',
+	top: 15,
+	left: '12.5%'
+}
+"#psRait": {
+	width: 150,  
+	left: '12.5%'
+} 
+".psRaitIndicatorLabel": {
+	width: 100,
+	top: -30,
+	left: 275 
+}
+".psToAccLabel": { 
+	width: 150,
+	top: 20,
+	left: '12.5%'
+}
+".psToForLabel": {
+	width: '75%',
+	top: 15,
+	left: '12.5%'
+}
+".psUserLabel": {
+	width: '75%',
+	top: 15,
+}
+".psTotalExchLabel1": {  
+	width: 140,
+	top: 20, 
+	left: '12.5%'
+}
+".psTotalExchLabel2": {
+	width: 160,
+	top: -20, 
+	right: '12.5%'
+}
+".psTotalExchLabel3": {
+	width: '75%',
+	top: 5, 
+	left: '12.5%'
+}
+".submit": { 
+	width: '55%',
+	height: 50,   
+	top: 10,
+	backgroundColor: '#75C799', 
+	color: 'white'
+}
+

@@ -1,0 +1,29 @@
+<Alloy>
+    <Window id="incForm">
+        <ScrollView id="historyLayout" class="form" layout="vertical" showVerticalScrollIndicator="true" width="100%" height="100%">
+			<Button id="gback" class="goBack" onClick="toOperations" title=""></Button>
+			
+	        <Label id="psDateLabel" class="psDateLabel" text="Дата: "></Label>
+			<TextField id="psPickDate" editable="false" hintText="Pick date"></TextField>
+		 
+	        <Label id="psAmountLabel" class="psAmountLabel" text="Сумма: "></Label>
+		    <TextField id="amount" hintText="0.00"></TextField>
+			<TextField id="currencyPicker" editable="false" hintText="Currency"></TextField>
+			
+	        <Label id="psRaitLabel" class="psRaitLabel" text="Курс: "></Label>
+		    <TextField id="psRait" hintText="0.00"></TextField>
+	        <Label id="psRaitIndicatorLabel" class="psRaitIndicatorLabel" text="EUR/USD"></Label>
+			
+	        <Label id="psToAccLabel" class="psToAccLabel" text="На счет: "></Label>
+			<TextField id="accountPicker" editable="false" hintText="Account"></TextField>	
+			 
+	        <Label id="psToForLabel" class="psToForLabel" text="Назначение платежа: "></Label>
+			<TextField id="categoryPicker" editable="false" hintText="Category"></TextField>	
+			<TextField id="subCategoryPicker" editable="false" hintText="Sub category"></TextField>	
+
+		    <TextArea id="comment" hintText="Ваш комментарий"></TextArea>
+		    
+			<Button onClick="submitData" class="submit" title="Ok"></Button>
+        </ScrollView> 
+    </Window> 
+</Alloy>        

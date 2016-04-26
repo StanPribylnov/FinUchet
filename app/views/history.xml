@@ -1,0 +1,8 @@
+<Alloy>
+    <Tab id="tab2" title="" badge="2" icon="images/dark_2x/dark_book@2x.png">
+	    <Window id="historyWin" backgroundColor="white" exitOnClose="true" fullscreen="false" title="History">
+	        <ScrollView id="historyLayout" layout="vertical" showVerticalScrollIndicator="true" height="100%">
+	        </ScrollView>
+	    </Window>
+	</Tab>
+</Alloy> 

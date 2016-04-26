@@ -1,0 +1,7 @@
+"Button": {
+	width: '75%',
+	height: 40, 
+	top: 240,
+	backgroundColor: '#75C799', 
+	color: 'white'
+}

@@ -1,0 +1,11 @@
+<Alloy>
+    <Window class="accIncView" layout="vertical">
+    	<Label id="h1">Please accept Your expense!</Label>
+    	<Label id="exchDate"></Label>
+    	<Label id="exchAmount"></Label>
+    	<!--<Label id="exchAccount"></Label>-->
+    	<Label id="exchComment"></Label> 
+    	<Button onClick="cancelExchange" id="exchDecline">Cancel</Button>
+    	<Button onClick="acceptExchange" id="exchAccept"  title="">Accept</Button>
+    </Window>
+</Alloy>  

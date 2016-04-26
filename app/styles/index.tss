@@ -1,0 +1,17 @@
+".mainWrapper": {
+} 
+"Button": {
+	width: '75%',
+	height: 40, 
+	top: 20,
+	backgroundColor: '#75C799', 
+	font:{
+		fontSize: '22dp',
+	    fontStyle: 'normal', 
+	    fontWeight: 'normal'
+	},
+	color: 'white' 
+}
+"#incomeBtn": {
+	top: 100
+}

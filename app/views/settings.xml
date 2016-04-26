@@ -1,0 +1,25 @@
+<Alloy>
+    <Tab id="tab4" title="Settings" icon="images/dark_2x/dark_gears@2x.png">
+	    <Window id="win" title=""
+	         layout="vertical" fullscreen="false" backgroundColor="white"> 
+	 		<Button id="pickLang">Chose language</Button>
+	        <!--
+	            The OptionDialog tag declares an option dialog,
+	            which will need to be opened by the controller.
+	        -->
+	        <OptionDialog id="dialog" title="Chose language">
+	
+	            <!-- The Options tag sets the options property. -->
+	            <Options>
+	                <Option>Russian</Option> 
+	                <Option>Hebrew</Option>
+	            </Options>
+		
+	            <!-- Add a View for the androidView property here. -->
+	
+	        </OptionDialog>
+	
+	        <!-- Add views here -->
+	    </Window>
+    </Tab>  
+</Alloy>  
